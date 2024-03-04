@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "firstpublic"
+version = "0.1.0"
+description = "first public gitrepo demo"
+authors = ["Ateev Rahn <rahulnpython@gmail.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+mkdocs = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.1.2"
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
